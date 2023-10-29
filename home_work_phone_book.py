@@ -146,7 +146,7 @@ def main():
                 if contact["phone_number"] == phone_number:
                     phonebook.remove(contact)
                     print("Запись успешно удалена.")
-                    export_to_txt(phonebook, "contacts.txt")
+                    export_to_txt(phonebook, "2")
                     break
             else:
                 print("Номер телефона не найден.")
